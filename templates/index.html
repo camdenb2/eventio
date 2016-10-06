@@ -1,10 +1,13 @@
-<!doctype html>
+<!doctype html>{% load staticfiles %}
 <head>
   <title>Eventio</title>
+
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
 </head>
 <body>
-  <h1>Eventio</h1>
-  <h2>Events List</h2>
+  <div class="container">
+    <h1>Eventio</h1>
+    <h2>Events List</h2>
 
   {% for event in events %}
   <div>
@@ -30,6 +33,6 @@
     </dl>
   </div>
   {% endfor %}
-
+</div>
 
 </body>
