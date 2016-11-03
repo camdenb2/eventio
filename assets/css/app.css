@@ -51,6 +51,21 @@ textarea {
   width: 100%;
 }
 
+/* Messages */
+#message p {
+    border-radius: 4px;
+    color: white;
+    margin: 0 0 3em;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+#messages .success {
+    background-color: #2ecc71;
+}
+
+
+
+
 /* Navigation */
 nav {
   background-color: #3498db;
